@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/buttonsclik.js"></script>
+  <script type="text/javascript" src="js/scrollmenu.js"></script>
+  <script src="js/buy.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/stayle.css">
+  <link rel="stylesheet" href="css/staylead.css">
+  <link rel="stylesheet" href="libs/font_awesome/css/font-awesome.min.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>GLOBAL CRYPTO FORUM</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <article class="conteiner_header">
+      <a class="logo" href="#"><img src="images/logo/logo_menu.png" alt="Логотип"></a>
+      <nav id="menu" class="menu_top">
+        <ul class="navigation">
+          <li><a href="#o_forume">О форуме</a></li>
+          <li><a href="#program">Программа</a></li>
+          <li><a href="#spikers">Спикеры</a></li>
+          <li><a href="#price">Купить</a></li>
+        </ul>
+      </nav>
+      <div class="mobile">
+        <input id="mobile_menu" type="checkbox" name="accordion-1">
+        <label for="mobile_menu"><i class="fa fa-bars button_menu" aria-hidden="true"></i></label>
+        <ul class="menu_mob text" id="menu_2">
+          <li><a href="#o_forume">О форуме</a></li>
+          <li><a href="#program">Программа</a></li>
+          <li><a href="#spikers">Спикеры</a></li>
+          <li><a href="#price">Купить</a></li>
+          <li class="location"><a class="but_list_city"><i class="fas fa-map-marker-alt"></i> РОСТОВ-НА-ДОНУ</a></li>
+        </ul>
+      </div>
+      <ul class="top_cont">
+        <li class="location"><a href="#"><i class="fas fa-map-marker-alt"></i> РОСТОВ-НА-ДОНУ</a></li>
+        <li><a href="#">8 800 350 96 85</a></li>
+      </ul>
+    </article>
+  </header>
+  <div class="baner_conteiner conteiner">
+    <article class="baner_content content">
+      <div class="city_diskription">
+        <a href="#"><img src="images/logo/logo_rostov03.png" alt="логотип"></a>
+        <h6>25 МАРТА</h6>
+        <span><i class="far fa-clock icon_gold"></i> 10:00</span>
+        <span><i class="fas fa-map-marker-alt icon_gold"></i> ДК "Ростсельмаш"</span>
+        <ul class="list_type">
+          <li>Секреты мира криптовалют и технологии блокчейн</li>
+          <li>Прогнозы развития рынка криптовалют до 2020 года</li>
+          <li>Актуальные вопросы майнинга и разработки криптовалют</li>
+        </ul>
+      </div>
+      <ul class="city_group">
+        <li><span>24.03</span> <a href="index.php">КРАСНОДАР</a></li>
+        <li class="activ_city"><span>25.03 </span><a href="#" class="text_gold">РОСТОВ-НА-ДОНУ</a></li>
+        <li><span>31.03 </span><a href="#">ВОРОНЕЖ</a></li>
+        <li><span>01.04 </span><a href="#">ВОЛГОГРАД</a></li>
+        <li><span>07.04 </span><a href="#">НИЖНИЙ НОВГОРОД</a></li>
+        <li><span>08.04 </span><a href="#">КАЗАНЬ</a></li>
+        <li><span>14.04 </span><a href="#">САМАРА</a></li>
+        <li><span>15.04 </span><a href="#">УФА</a></li>
+      </ul>
+      <ul class="city_group">
+        <li><span>21.04 </span><a href="#">ПЕРМЬ</a></li>
+        <li><span>22.04 </span><a href="#">ЕКАТЕРИНБУРГ</a></li>
+        <li><span>28.04 </span><a href="#">ОМСК</a></li>
+        <li><span>29.04 </span><a href="#">ЧЕЛЯБИНСК</a></li>
+        <li><span>26.05 </span><a href="#">НОВОСИБИРСК</a></li>
+        <li><span>27.05 </span><a href="#">КРАСНОЯРСК</a></li>
+        <li><span>02.06 </span><a href="#">МОСКВА</a></li>
+        <li><span>03.06 </span><a href="#">САНКТ-ПЕТЕРБУРГ</a></li>
+      </ul>
+    </article>
+  </div>
+  <div class="conteiner">
+    <div class="proposals text_black conteiner_flex content">
+      <article class="proposal">
+        <h3 class="text_gold text_center subtitle">Посетителю</h3>
+        <p class="text_left">Примите участие в первом Российском глобальном блокчейн мероприятии. Зарегистрируйтесь заранее и получите скидку.</p>
+        <a id="but_Vijet1" class="buttons buttons_blue">Купить билет</a>
+      </article>
+      <article class="proposal text_center">
+        <h3 class="text_gold text_center subtitle">Спонсору</h3>
+        <p class="text_left">Воспользуйтесь уникальной возможностью представить свой продукт, наладить деловые связи и заявить о себе как о лидере индустрии.</p>
+        <a id="become_a_sponsor" class="buttons buttons_blue">Стать спонсором</a>
+      </article>
+      <article class="proposal text_center">
+        <h3 class="text_gold text_center subtitle">Спикеру</h3>
+        <p class="text_left">У вас есть актуальная тема и вы хотите поделиться опытом?  Заполните заявку и обсудите детали с организатором</p>
+        <a id="speakers1" class="buttons buttons_blue">Подать заявку</a>
+      </article>
+      <article class="proposal text_center">
+        <h3 class="text_gold text_center subtitle">СМИ</h3>
+        <p class="text_left">Приглашаем к сотрудничеству профильные СМИ. Заполните заявку и пройдите аккредитацию информационного партнера.</p>
+        <a id="press" class="buttons buttons_blue">Аккредитация</a>
+      </article>
+    </div>
+  </div>
+  <div class="conteiner conteiner__about_an_event">
+    <article class="about_an_event content" id="o_forume">
+      <h2 class="title text_center text_gold">GLOBAL CRYPTO FORUM 2018</h2>
+        <p class="o_forume text_center">Первый Российский глобальный форму посвященный индустрии блокчейн технологий и изучению криптовалют. Событие пройдет в 16 крупнейших городах страны при участии спикеров-практиков.</p>
+        <p class="o_forume text_center">Целью форума - поделиться практическим опытом от ведущих экспертов в области блокчейн технологий и наладить деловые связи между участниками форума.</p>
+        <p class="o_forume text_center">В программе форума только практика и детальные инструкции проверенные опытом экспертов отрасли. Будут рассмотрены последние тренды индустрии и перспективы развития. Событие пройдет в атмосфере драйва и позитива, получите новые знакомства и полезные связи.</p>
+        <h4 class="subtitle subtitle_oforume text_center text_gold">НА ФОРУМЕ ВЫ УЗНАЕТЕ:</h4>
+        <div class="conteiner_flex ">
+          <ul class="list_type_event">
+            <li class="list_oforume_1 list_oforume list_type_oforume">Как зарабатывать на криптовалютах. Какие монеты дадут рост в 2018 году. Как снизить риски.</li>
+            <li class="list_oforume_2 list_oforume list_type_oforume list_type_oforume_2">Как привлечь инвистиции в свой проект при помощи ICO. Для участников форума пошаговая инструкция.</li>
+          </ul>
+          <ul class="list_type_event">
+            <li class="list_oforume_3 list_oforume list_type_oforume">Как блокчейн и криптовалюты создают новый технологический виток.</li>
+            <li class="list_oforume_4 list_oforume list_type_oforume">Как использовать передовые технологии блокчейн в собственном бизнесе и идти в ногу со временем.</li>
+          </ul>
+        </div>
+        <p class="o_forume text_center">Пройдите путь от новчка до гуру за один день. Все что нужно знать о криптовалюте и блокчейн технологии.</p>
+    </article>
+  </div>
+  <div class="conteiner">
+    <article class="program content text_black" id="program">
+      <h2 class="title text_center">ПРОГРАММА ФОРУМА</h2>
+      <article class="conteiner_flex">
+        <div class="program_items">
+          <div class="program_item">
+            <div class="marker"><span>1</span></div>
+            <p>Что такое блокчейн и криптовалюты?</p>
+          </div>
+          <div class="program_item">
+            <div class="marker"><span>2</span></div>
+            <p>Как заработать на инвестициях в криптовалюты? Возможности и риски</p>
+          </div>
+          <div class="program_item">
+            <div class="marker"><span>3</span></div>
+            <p>Майнинг</p>
+          </div>
+          <div class="program_item">
+            <div class="marker"><span>4</span></div>
+            <p>Криптотрейдинг</p>
+          </div>
+        </div>
+        <div class="program_items">
+          <div class="program_item">
+            <div class="marker"><span>5</span></div>
+            <p>Смарт-контракты</p>
+          </div>
+          <div class="program_item">
+            <div class="marker"><span>6</span></div>
+            <p>ICO. Как вывести свой проект на ICO и привлечь инвестиции?</p>
+          </div>
+          <div class="program_item">
+            <div class="marker"><span>7</span></div>
+            <p>Правовые основы криптовалют</p>
+          </div>
+        </div>
+      </article>
+      <h4 class="subtitle text_center">Получить подробную программу мероприятия</h4>
+      <form id="form1" class="forma conteiner_flex" action="function/forms_rostov.php" method="post">
+        <input type="text" name="name" placeholder="Имя" autocomplite="off" required>
+        <input type="text" name="phone" placeholder="Телефон" autocomplite="off" required>
+        <input type="text" name="email" placeholder="E-mail" autocomplite="off" required>
+        <button class="buttons buttons_gold button_program" type="submit" name="submit">ПОЛУЧИТЬ ПРОГРАММУ</button>
+      </form>
+      <p class="text_smal">Нажимая на кнопку "получить программу" вы даете согласие с <a href="privacy_policy.html" class="text_black text_decoration">политикой конфеденциальности</a></p>
+    </article>
+  </div>
+  <div class="conteiner conteiner_speakers" id="spikers">
+    <article class="speakers content">
+      <h2 class="title text_center">СПИКЕРЫ</h2>
+      <img class="scroll_maus" src="images/icons/scroll.png" alt="scroll icon">
+      <div class="slaider conteiner_flex text_center">
+        <div class="slider_item">
+          <img id="Pavel_Zhukovsky" class="opacity" src="images/speakers/spiker1.jpg" alt="foto">
+          <h6 class="subtitle text_gold">Павел Жуковский</h6>
+          <span>Москва</span>
+          <p>Официальный автор тренингов Московской Биржи</p>
+        </div>
+        <div class="slider_item">
+          <img id="Dmitry_Rzhevsky" class="opacity" src="images/speakers/spiker2.jpg" alt="foto">
+          <h6 class="subtitle text_gold">Дмитрий Ржевский</h6>
+          <span>Москва</span>
+          <p>Директор компании Simplex Software</p>
+        </div>
+        <div class="slider_item">
+          <img id="Anver_Bikchentaev" class="opacity" src="images/speakers/spiker3.jpg" alt="foto">
+          <h6 class="subtitle text_gold">Анвер Бигчинтаев</h6>
+          <span>Уфа</span>
+          <p>Собственник компании Carburex</p>
+        </div>
+        <!-- <div class="slider_item">
+          <img id="Alexander_Tron" class="opacity" src="images/speakers/speaker_x.jpg" alt="foto">
+          <h6 class="subtitle text_gold">Александр Трон</h6>
+          <span></span>
+          <p>Криптотрейдер, фонд RuBit</p>
+        </div>
+        <div class="slider_item">
+          <img id="speaker_x" class="opacity" src="images/speakers/speaker_x.jpg" alt="foto">
+          <h6 class="subtitle text_gold">Спикер уточняется</h6>
+          <span></span>
+          <p></p>
+        </div> -->
+      </div>
+      <a id="speakers2" class="buttons buttons_gold button_program">СТАТЬ СПИКЕРОМ</a>
+    </article>
+  </div>
+  <div class="conteiner">
+    <article id="price" class="price content text_center">
+      <h2 class="title text_black text_center">СТОИМОСТЬ УЧАСТИЯ</h2>
+      <article class="price_standart conteiner">
+        <div class="price_standart_item">
+          <h4 class="text_gold text_center title">STANDART</h4>
+          <span class="subtitle">1 900 р</span>
+          <p>первые 100 билетов, далее цена повышается</p>
+          <a id="but_Standart1" class="buttons buttons_gold standart_button__center">Подробнее</a>
+        </div>
+        <a id="but_Standart2" class="buttons buttons_gold price_standart__buttons">Подробнее</a>
+      </article>
+      <div class="price_items conteiner_flex">
+        <article class="price_item comfort conteiner">
+          <h4 class="text_gold text_center title">COMFORT</h4>
+          <span class="subtitle">3 900 р</span>
+          <p>первые 50 билетов, далее цена повышается</p>
+          <a id="but_comfort" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </article>
+        <article class="price_item business conteiner">
+          <h4 class="text_gold text_center title">BUSINESS</h4>
+          <span class="subtitle">7 900 р</span>
+          <p>первые 20 билетов, далее цена повышается</p>
+          <a id="but_business" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </article>
+        <article class="price_item premium conteiner">
+          <h4 class="text_gold text_center title">PREMIUM</h4>
+          <span class="subtitle">25 000 р</span>
+          <p>всего 15 билетов</p>
+          <a id="but_premium" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </article>
+      </div>
+      <h2 class="title text_black text_center package_title">КОРПОРАТИВНЫЕ ПАКЕТЫ</h2>
+      <div class="packages conteiner_flex">
+        <div class="package price_item">
+          <p>Корпоротивный</p>
+          <h4 class="text_center title package_title">ПАКЕТ №1</h4>
+          <span class="subtitle">10% скидка</span>
+          <p>5 билетоа</p>
+          <a id="corporate_package_1" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </div>
+        <div class="package price_item">
+          <p>Корпоротивный</p>
+          <h4 class="text_center title package_title">ПАКЕТ №2</h4>
+          <span class="subtitle">20% скидка</span>
+          <p>10 билетоа</p>
+          <a id="corporate_package_2" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </div>
+        <div class="package price_item">
+          <p>Корпоротивный</p>
+          <h4 class="text_center title package_title">ПАКЕТ №3</h4>
+          <span class="subtitle">30% скидка</span>
+          <p>20 билетоа</p>
+          <a id="corporate_package_3" class="buttons buttons_gold price_item__buttons">Подробнее</a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="adress_rostov adress_conteiner conteiner">
+    <div class="content conteiner_flex felx_end">
+      <article class="place place_conteiner">
+        <h2 class="title text_gold">МЕСТО ПРОВЕДЕНИЯ</h2>
+        <p class="subtitle subtitle_lighter">ДК "Ростсельмаш" - Главный Зал - г. Ростов-на-Дону, пр. Сельмаш, 3</p>
+        <p class="subtitle subtitle_lighter">1000 посадочных мест<br>
+          Дата: 25 марта 2018 года</p>
+        <p class="subtitle subtitle_lighter">Время: 10:00-18:00</p>
+      </article>
+    </div>
+  </div>
+  <div class="partners">
+    <article class="conteiner">
+      <article class="partners_forum">
+        <h3>ПАРТНЕРЫ ФОРУМА</h3>
+        <div class="slider_partners">
+
+        </div>
+      </article>
+      <article class="partners_forum">
+        <h3>ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ</h3>
+        <div class="slider_partners">
+
+        </div>
+      </article>
+    </article>
+  </div>
+  <footer class="conteiner container_footer">
+    <div class="content footer conteiner_flex">
+      <article class="logofooter footer_item">
+        <a class="logofooter__margin" href="#"><img src="images/logo/logo_footer.png" alt="Логотип"></a>
+        <span>©gc-forum.ru</span>
+      </article>
+      <article class="footerMenu footer_item">
+        <h5 class="text_golden">Меню</h5>
+        <ul id="footerMenu" class="navigation_footer conteiner_flex">
+          <ul>
+            <li><a href="#o_forume">О форуме</a></li>
+            <li><a href="#program">Программа</a></li>
+          </ul>
+          <ul>
+            <li><a href="#spikers">Спикеры</a></li>
+            <li><a href="#price">Купить</a></li>
+          </ul>
+        </ul>
+        <article class="social conteiner_flex">
+          <a href="https://vk.com/cryptoforum_rostov"><i class="fab fa-vk"></i></a>
+          <!-- <a href="#"><i class="fa fa-paper-plane"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#">Bt</a> -->
+        </article>
+      </article>
+      <article class="footerContakt footer_item">
+        <h5 class="text_golden">Контактная информация</h5>
+        <a href="mailto:info@site.com?subject=feedback">info@gc-forum.ru</a>
+        <span>8 800 350 96 85</span>
+        <a href="privacy_policy.html">Политика конфиденциальности</a>
+      </article>
+    </div>
+  </footer>
+  <div class="">
+    <div id="modal_list_city" class="modals">
+      <div class="form_area_0">
+        <section class="form_area">
+          <div class="text_black list_city">
+            <i id="close" class="far fa-times-circle close"></i>
+            <div class="conteiner_flex">
+              <ul class="list_city_group">
+                <li><a href="index.php">КРАСНОДАР</a></li>
+                <li class="list_city_group_active"><a href="#">РОСТОВ-НА-ДОНУ</a></li>
+                <li><a href="#">ВОРОНЕЖ</a></li>
+                <li><a href="#">ВОЛГОГРАД</a></li>
+                <li><a href="#">НИЖНИЙ НОВГОРОД</a></li>
+                <li><a href="#">КАЗАНЬ</a></li>
+                <li><a href="#">САМАРА</a></li>
+                <li><a href="#">УФА</a></li>
+              </ul>
+              <ul class="list_city_group">
+                <li><a href="#">ПЕРМЬ</a></li>
+                <li><a href="#">ЕКАТЕРИНБУРГ</a></li>
+                <li><a href="#">ОМСК</a></li>
+                <li><a href="#">ЧЕЛЯБИНСК</a></li>
+                <li><a href="#">НОВОСИБИРСК</a></li>
+                <li><a href="#">КРАСНОЯРСК</a></li>
+                <li><a href="#">МОСКВА</a></li>
+                <li><a href="#">САНКТ-ПЕТЕРБУРГ</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="ticket_info">
+    <div id="modal_Standart" class="modals">
+      <div class="form_area_0">
+        <section class="form_area">
+          <div class="text_black">
+            <i id="close" class="far fa-times-circle close"></i>
+            <h2 class="title text_gold text_center">STANDART</h2>
+            <ul class="list_discription text_black">
+              <li>Посещение крипто форума</li>
+              <li>Сертификат участника форума</li>
+              <li>Кофе брейк (чай, кофе, выпечка)</li>
+              <li>Пакет участника с материалами конференции</li>
+            </ul>
+            <p class="subtitle subtitle_form">СТОИМОСТЬ: <b>1 900р</b></p>
+            <p class="">Первые 100 билетов, далее цена повышается</p>
+            <div class="conteiner_button conteiner_flex">
+              <a id="but_book_ticket" class="button_book_ticket">Забронировать</a>
+              <a id="but2_Vijet2" class="button_book_ticket">Купить Билет</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="modal_comfort" class="modals">
+      <div class="form_area_0">
+        <section class="form_area">
+          <div class="text_black">
+            <i id="close" class="far fa-times-circle close"></i>
+            <h2 class="title text_gold text_center">COMFORT</h2>
+            <ul class="list_discription text_black">
+              <li>Посещение крипто форума</li>
+              <li>Сертификат участника форума</li>
+              <li>Кофе брейк (чай, кофе, выпечка)</li>
+              <li>Пакет участника с материалами конференции</li>
+              <li>COMFORT места (4 - 7 ряд)</li>
+              <li>Видеозапись выступлений</li>
+              <li>Доступ в закрытую telegram группу участников форума</li>
+            </ul>
+            <p class="subtitle subtitle_form">СТОИМОСТЬ: <b>3 900р</b></p>
+            <p class="subtitle_form">Первые 50 билетов, далее цена повышается</p>
+            <div class="conteiner_button conteiner_flex">
+              <a id="but_book_ticket" class="button_book_ticket but_book_ticket">Забронировать</a>
+              <a id="but2_Vijet2" class="button_book_ticket but2_Vijet2">Купить Билет</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="modal_business" class="modals">
+      <div class="form_area_0">
+        <section class="form_area">
+          <div class="text_black">
+            <i id="close" class="far fa-times-circle close"></i>
+            <h2 class="title text_gold text_center">BUSINESS</h2>
+            <ul class="list_discription text_black">
+              <li>Посещение крипто форума</li>
+              <li>Сертификат участника форума</li>
+              <li>Кофе брейк (чай, кофе, выпечка)</li>
+              <li>Пакет участника с материалами конференции</li>
+              <li>BUSINESS места (1 - 3 ряд)</li>
+              <li>Видеозапись выступлений</li>
+              <li>Доступ в закрытую telegram группу участников форума</li>
+              <li>Отдельная BUSINESS стойка регистрации</li>
+              <li>Пакет участника с презентациями спикеров</li>
+              <li>Доступ в закрытый crypto клуб предпринимателей</li>
+            </ul>
+            <p class="subtitle subtitle_form">СТОИМОСТЬ: <b>7 900р</b></p>
+            <p class="">Первые 20 билетов, далее цена повышается</p>
+            <div class="conteiner_button conteiner_flex">
+              <a id="but_book_ticket" class="button_book_ticket but_book_ticket">Забронировать</a>
+              <a id="but2_Vijet2" class="button_book_ticket but2_Vijet2">Купить Билет</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div id="modal_premium" class="modals">
+      <div class="form_area_0">
+        <section class="form_area">
+          <div class="text_black">
+            <i id="close" class="far fa-times-circle close"></i>
+            <h2 class="title text_gold text_center">PREMIUM</h2>
+            <ul class="list_discription text_black">
+              <li>Посещение крипто форума</li>
+              <li>Сертификат участника форума</li>
+              <li>Кофе брейк (чай, кофе, выпечка)</li>
+              <li>Пакет участника с материалами конференции</li>
+              <li>PREMIUM места (0 ряд)</li>
+              <li>Видеозапись выступлений</li>
+              <li>Доступ в закрытую telegram группу участников форума</li>
+              <li>Отдельная PREMIUM стойка регистрации</li>
+              <li>Пакет участника с презентациями спикеров</li>
+              <li>Доступ в закрытый crypto клуб предпринимателей</li>
+              <li>Закрытый VIP ужин со спикерами и партнёрами</li>
+              <li>Первоочередное право на вопросы спикерам после их выступления</li>
+              <li>Индивидуальная консультация по формированию криптопортфеля</li>
+            </ul>
+            <p class="subtitle subtitle_form">СТОИМОСТЬ: <b>25 000р</b></p>
+            <p class="">Всего 15 билетов</p>
+            <div class="conteiner_button conteiner_flex">
+              <a id="but_book_ticket" class="button_book_ticket but_book_ticket">Забронировать</a>
+              <a id="but2_Vijet2" class="button_book_ticket but2_Vijet2">Купить Билет</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="form_of_communication">
+    <div id="modal_become_a_sponsor" class="modals">
+      <div class="form_area_0">
+        <article class="form_area">
+          <i id="close" class="far fa-times-circle close"></i>
+          <h4 class="title text_gold text_center">СТАТЬ СПОНСОРОМ</h4>
+          <form id="form2" action="function/forms_rostov.php" method="post">
+            <input class="input_area" type="text" name="name1" placeholder="Имя" autocomplite="off" required>
+            <input class="input_area" type="text" name="company1" placeholder="Компания" autocomplite="off" required>
+            <input class="input_area" type="text" name="position1" placeholder="Должность" autocomplite="off" required>
+            <input class="input_area" type="text" name="mail1" placeholder="E-mail" autocomplite="off" required>
+            <input class="input_area" type="text" name="phone1" placeholder="Телефон" autocomplite="off" required>
+            <input class="input_area" type="text" name="site1" placeholder="сайт" autocomplite="off" required>
+            <div class="conteiner_button">
+              <button type="submit" name="submit1" class="button_send">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </form>
+          <p class="text_smal text_black text_center">Нажимая на кнопку "получить программу" вы даете согласие с <a class="text_black text_decoration" href="privacy_policy.html">политикой конфеденциальности</a></p>
+        </article>
+      </div>
+    </div>
+    <div id="modal_press" class="modals">
+      <div class="form_area_0">
+        <article class="form_area">
+          <i id="close" class="far fa-times-circle close"></i>
+          <h4 class="title text_gold text_center">АККРЕДИТАЦИЯ</h4>
+          <form class="" action="function/forms_rostov.php" method="post">
+            <input class="input_area" type="text" name="company2" placeholder="Название СМИ" autocomplite="off" required>
+            <input class="input_area" type="text" name="name2" placeholder="ФИО представителя" autocomplite="off" required>
+            <input class="input_area" type="text" name="position2" placeholder="Должность" autocomplite="off" required>
+            <input class="input_area" type="text" name="mail2" placeholder="E-mail" autocomplite="off" required>
+            <input class="input_area" type="text" name="phone2" placeholder="Телефон" autocomplite="off" required>
+            <input class="input_area" type="text" name="site2" placeholder="сайт" autocomplite="off" required>
+            <div class="conteiner_button">
+              <button type="submit" name="submit2" class="button_send">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </form>
+          <p class="text_smal text_black text_center">Нажимая на кнопку "получить программу" вы даете согласие с <a class="text_black text_decoration" href="privacy_policy.html">политикой конфеденциальности</a></p>
+        </article>
+      </div>
+    </div>
+    <div id="modal_corporate_package" class="modals">
+      <div class="form_area_0">
+        <article class="form_area">
+          <i id="close" class="far fa-times-circle close"></i>
+          <h4 class="title text_gold text_center">КОРПОРАТИВНЫЙ ПЕКЕТ</h4>
+          <form class="" action="/function/forms_rostov.php" method="post">
+            <input class="input_area" type="text" name="name3" placeholder="Имя" autocomplite="off" required>
+            <input class="input_area" type="text" name="mail3" placeholder="E-mail" autocomplite="off" required>
+            <input class="input_area" type="text" name="phone3" placeholder="Телефон" autocomplite="off" required>
+            <input class="input_area" type="text" name="population3" placeholder="Количество человек" autocomplite="off" required>
+            <div class="conteiner_button conteiner_flex">
+              <button type="submit" class="button_send" name="submit3">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </form>
+          <p class="text_smal text_black text_center">Нажимая на кнопку "получить программу" вы даете согласие с <a class="text_black text_decoration" href="privacy_policy.html">политикой конфеденциальности</a></p>
+        </article>
+      </div>
+    </div>
+    <div id="modal_speakers" class="modals">
+      <div class="form_area_0">
+        <article class="form_area">
+          <i id="close" class="far fa-times-circle close"></i>
+          <h4 class="title text_gold text_center">СПИКЕРУ</h4>
+          <form action="function/forms_rostov.php" method="post">
+            <input class="input_area" type="text" name="name4" placeholder="Имя и Фамилия" autocomplite="off" required>
+            <input class="input_area" type="text" name="mail4" placeholder="E-mail" autocomplite="off" required>
+            <input class="input_area" type="text" name="phone4" placeholder="Телефон" autocomplite="off" required>
+            <input class="input_area" type="text" name="topic_of_report4" placeholder="Тема доклада" autocomplite="off" required>
+            <h4 class="subtitle text_blue">В каких городах<br>Вы хотите выступать:</h4>
+            <div class="city_selection conteiner_flex">
+              <ul>
+                <li>
+                  <input id="city1" type="checkbox" name="optional4[]" value="КРАСНОДАР">
+                  <label for="city1" class="text_black">КРАСНОДАР</label>
+                </li>
+                <li>
+                  <input id="city2" type="checkbox" name="optional4[]" value="РОСТОВ-НА-ДОНУ">
+                  <label for="city2" class="text_black">РОСТОВ-НА-ДОНУ</label>
+                </li>
+                <li>
+                  <input id="city3" type="checkbox" name="optional4[]" value="ВОРОНЕЖ">
+                  <label for="city3" class="text_black">ВОРОНЕЖ</label>
+                </li>
+                <li>
+                  <input id="city4" type="checkbox" name="optional4[]" value="ВОЛГОГРАД">
+                  <label for="city4" class="text_black">ВОЛГОГРАД</label>
+                </li>
+                <li>
+                  <input id="city5" type="checkbox" name="optional4[]" value="НИЖНИЙ НОВГОРОД">
+                  <label for="city5" class="text_black">НИЖНИЙ НОВГОРОД</label>
+                </li>
+                <li>
+                  <input id="city6" type="checkbox" name="optional4[]" value="КАЗАНЬ">
+                  <label for="city6" class="text_black">КАЗАНЬ</label>
+                </li>
+                <li>
+                  <input id="city7" type="checkbox" name="optional4[]" value="САМАРА">
+                  <label for="city7" class="text_black">САМАРА</label>
+                </li>
+                <li>
+                  <input id="city8" type="checkbox" name="optional4[]" value="УФА">
+                  <label for="city8" class="text_black">УФА</label>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <input id="city9" type="checkbox" name="optional4[]" value="ПЕРМЬ">
+                  <label for="city9" class="text_black">ПЕРМЬ</label>
+                </li>
+                <li>
+                  <input id="city10" type="checkbox" name="optional4[]" value="ЕКАТЕРИНБУРГ">
+                  <label for="city10" class="text_black">ЕКАТЕРИНБУРГ</label>
+                </li>
+                <li>
+                  <input id="city11" type="checkbox" name="optional4[]" value="ОМСК">
+                  <label for="city11" class="text_black">ОМСК</label>
+                </li>
+                <li>
+                  <input id="city12" type="checkbox" name="optional4[]" value="ЧЕЛЯБИНСК">
+                  <label for="city12" class="text_black">ЧЕЛЯБИНСК</label>
+                </li>
+                <li>
+                  <input id="city13" type="checkbox" name="optional4[]" value="НОВОСИБИРСК">
+                  <label for="city13" class="text_black">НОВОСИБИРСК</label>
+                </li>
+                <li>
+                  <input id="city14" type="checkbox" name="optional4[]" value="КРАСНОЯРСК">
+                  <label for="city14" class="text_black">КРАСНОЯРСК</label>
+                </li>
+                <li>
+                  <input id="city15" type="checkbox" name="optional4[]" value="МОСКВА">
+                  <label for="city15" class="text_black">МОСКВА</label>
+                </li>
+                <li>
+                  <input id="city16" type="checkbox" name="optional4[]" value="САНКТ-ПЕТЕРБУРГ">
+                  <label for="city16" class="text_black">САНКТ-ПЕТЕРБУРГ</label>
+                </li>
+              </ul>
+            </div>
+            <div class="conteiner_button conteiner_flex">
+              <button type="submit" class="button_send" name="submit4">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </form>
+          <p class="text_smal text_black text_center">Нажимая на кнопку "получить программу" вы даете согласие с <a class="text_black text_decoration" href="privacy_policy.html">политикой конфеденциальности</a></p>
+        </article>
+      </div>
+    </div>
+    <div id="modal_book_ticket" class="modals">
+      <div class="form_area_0">
+        <article class="form_area">
+          <i id="close" class="far fa-times-circle close"></i>
+          <h4 class="title text_gold text_center">ЗАБРОНИРОВАТЬ</h4>
+          <form class="" action="/function/forms_rostov.php" method="post">
+            <input class="input_area" type="text" name="name5" placeholder="Имя" autocomplite="off" required>
+            <input class="input_area" type="text" name="mail5" placeholder="E-mail" autocomplite="off" required>
+            <input class="input_area" type="text" name="phone5" placeholder="Телефон" autocomplite="off" required>
+            <select class="input_area" name="tikets5" required>
+              <option volue="">выберите пакет</option>
+              <option value="Стандарт">STANDART - 1 900р</option>
+              <option value="Комфорт">COMFORT - 3 900р</option>
+              <option value="Бизнес">BUSINESS - 7 900р</option>
+              <option value="Премиум">PREMIUM - 25 000р</option>
+            </select>
+            <div class="conteiner_button conteiner_flex">
+              <button type="submit" class="button_send" name="submit5">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </form>
+          <p class="text_smal text_black text_center">Нажимая на кнопку "получить программу" вы даете согласие с <a class="text_black text_decoration" href="privacy_policy.html">политикой конфеденциальности</a></p>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="speakers_info">
+    <div id="modal_Pavel_Zhukovsky" class="modals">
+      <div class="form_area_0">
+        <div class="form_area ">
+          <i id="close" class="far fa-times-circle close"></i>
+          <div class="info_speaker text_center">
+            <img class="" src="images/speakers/spiker1.jpg" alt="">
+            <h6 class="title text_gold">Павел Жуковский</h6>
+            <span class="text_black text_center">Москва.</span>
+            <p class="text_black text_center">Официальный автор тренингов Московской Биржи</p>
+          </div>
+          <ul class="list_discription text_black">
+            <li>С 2001 года торговля на финансовых рынках: FOREX, московская биржа, американский фондовый рынок,спекуляции криптовалютой на топовых биржах мира.</li>
+            <li>С апреля 2017 года публично начал инвестировать в криптовалюту, увеличив свой счет более чем 20 раз.</li>
+            <li>Демонстрация успешной торговли публично, по телевидению и в интернете.</li>
+            <li>Профессиональный психолог, специалист по кадрам.</li>
+            <li>Автор собственной методики «Эмоциональный интеллект в трейдинге».</li>
+            <li>Официальный автор тренингов Московской Биржи.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="modal_Dmitry_Rzhevsky" class="modals">
+      <div class="form_area_0">
+        <div class="form_area ">
+          <i id="close" class="far fa-times-circle close"></i>
+          <div class="info_speaker text_center">
+            <img class="" src="images/speakers/spiker2.jpg" alt="">
+            <h6 class="title text_gold">Дмитрий Ржевский</h6>
+            <span class="text_black text_center">Москва.</span>
+            <p class="text_black text_center">Директор компании Simplex Software</p>
+          </div>
+          <ul class="list_discription text_black">
+            <li>20-летний опыт в разработке ПО.Создание сложных и высоконагруженных систем.</li>
+            <li>10-летний опыт руководства командами разработчиков и проектирования информационных систем в крупных IT компаниях.</li>
+            <li>Участвовал в создании крупных проектов, таких как:<br>Облачный сервис Jelastic (Сколково)<br>Платёжная система A3</li>
+            <li>Разработка системы контекстной рекламы Contextweb (10% рынка контекстной рекламы в США)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="modal_Anver_Bikchentaev" class="modals">
+      <div class="form_area_0">
+        <div class="form_area ">
+          <i id="close" class="far fa-times-circle close"></i>
+          <div class="info_speaker text_center">
+            <img class="" src="images/speakers/spiker3.jpg" alt="">
+            <h6 class="title text_gold">Анвер Бигчинтаев</h6>
+            <span class="text_black text_center">Уфа.</span>
+            <p class="text_black text_center">Собственник компании Carburex</p>
+          </div>
+          <ul class="list_discription text_black">
+            <li>Эксперт в области закупок государственных компаний и налогового законодательства.</li>
+            <li>Кандидат юридических наук.</li>
+            <li>Неоднократное участие в деловых программах на ТВ, в том числе на РБК.</li>
+            <li>В настоящее время исследует правовой статус криптовалют в отечественной правовой системе и зарубежном законодательстве, составляет прогноз по влиянию блокчейн-технологий на государство и право будущего.</li>
+            <li>Собственник компании по поставке специализированных красителей для нефтепродуктов - традиционный бизнес (carburex.ru).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="modal_Alexander_Tron" class="modals">
+      <div class="form_area_0">
+        <div class="form_area ">
+          <i id="close" class="far fa-times-circle close"></i>
+          <div class="info_speaker text_center">
+            <img class="" src="images/speakers/speaker_x.jpg" alt="">
+            <h6 class="title text_gold">Александр Трон</h6>
+            <span class="text_black text_center"></span>
+            <p class="text_black text_center">Криптотрейдер, фонд RuBit</p>
+          </div>
+          <ul class="list_discription text_black">
+            <li>Успешный предприниматель, который закрыл свой бизнес.</li>
+            <li>Опыт работы на фондовом рынке более 3-х лет.</li>
+            <li>В первые дни трейда на криптовалюте получилось сделать +300%.</li>
+            <li>В среднем увеличение ДЕПО от 5 до 10% в месяц.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="vijets">
+    <div id="modal_vijet" class="conteiner modals">
+      <div class="content content_vijet">
+        <span data-tc-event-inline="5a72e573519f7b001b358aaf" data-tc-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImlzcyI6InRpY2tldHNjbG91ZC5ydSJ9.eyJwIjoiNWE3MmQxZWNkMzUyODYwMDE5NTE0MzQzIn0.ZYCgmRKHB-AlRs39BO3nbYUw8LtR4WhNhca7HKcstQA"> </span>
+      </div>
+    </div>
+  </div>
+  <script src="https://api.ticketscloud.org/static/scripts/widget/tcwidget.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+@media screen and (max-width: 780px) {
+  .menu_top {
+    display: none;
+  }
+  .mobile {
+    display: inherit;
+  }
+  .top_cont {
+    display: none;
+  }
+  .city_group {
+    display: none;
+  }
+  .list_type_event {
+    margin: 0 auto;
+  }
+  .program_item {
+    margin: 0 auto 25px;
+  }
+  .forma {
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  .forma input {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  .price_item {
+    margin: 24px auto 0;
+  }
+  .price_standart_item p {
+    padding-bottom: 10px;
+  }
+  .price_standart__buttons {
+    display: none;
+  }
+  .standart_button__center {
+    display: inherit;
+    margin-left: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form_area_0 {
+    padding: 0;
+    max-width: 400px;
+  }
+}
